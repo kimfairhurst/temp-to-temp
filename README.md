@@ -27,11 +27,14 @@ How to Use the Temp-to-Temp (in 5 easy steps!)
 The app is constructed using a huge conglomerate of things: different containers, a ton of styles for all text, 2 sets of 6-count radio buttons, a slider (from 0 – 350), and a lot of different labels. The main background (backCon) is a simple purple (#9999FF) container that acts as the background – everything is built on this. The only things added directly to the backCon are the radio button sets and the slider. 
 
 There are 5 separate containers apart from the backCon, they are:
-```1.	displayCon: holds the transition piece, a label, (“if you’re curious…” between the input and output halves of the app.
-```2.	tempCon: holds the output labels (converted temperature and scale) for the left side at the bottom of the app
-```3.	tempCon2: holds the output labels (converted temperature and scale) for the right side at the bottom of the app
-```4.	initTempCon: holds the label whose values is adjusted by the slider, also holds the label that reflects the chosen input scale
-```5.	outputTempCon: holds the label whose value is calculated after the output scale is selected, also holds the label that reflects the chosen output scale
+
+<ol>
+  <li>displayCon: holds the transition piece, a label, (“if you’re curious…” between the input and output halves of the app.</li>
+  <li>tempCon: holds the output labels (converted temperature and scale) for the left side at the bottom of the app</li>
+  <li>tempCon2: holds the output labels (converted temperature and scale) for the right side at the bottom of the app</li>
+  <li>initTempCon: holds the label whose values is adjusted by the slider, also holds the label that reflects the chosen input scale</li>
+  <li>outputTempCon: holds the label whose value is calculated after the output scale is selected, also holds the label that reflects the chosen output scale</li>
+</ol> 
 
 <br>
 
