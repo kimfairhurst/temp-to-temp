@@ -3,8 +3,12 @@
 
 The Temp-to-Temp application does exactly what its name suggests: it easily converts a temperature from one of 6 different temperature types into another type. Additionally, it displays the conversion of all 6-scales at the bottom for easy access. Currently, the Temp-to-Temp is capable of conversions between the Celsius, Fahrenheit, Kelvin, Rankine, Delisle, and Newton temperature scales. 
 
+<br>
+
 <h4>See a video of the app in action here: https://www.youtube.com/watch?v=FzgqKata5MA&list=UUc6KCm3yl0wdNFNGNK-yxLQ</h4>
+
 <br><br>
+
 <h3>INSTRUCTIONS:</h3>
 How to Use the Temp-to-Temp (in 5 easy steps!)
 <ol>
@@ -18,6 +22,7 @@ How to Use the Temp-to-Temp (in 5 easy steps!)
 (NOTE: The equivalent of your selected temperature will appear in the 6-scale display on the bottom half of the application in all 6 scales for easy reading or if you want multiple conversions at once.)
  
 <br>
+
 <h3>BEHIND THE CODE:</h3>
 The app is constructed using a huge conglomerate of things: different containers, a ton of styles for all text, 2 sets of 6-count radio buttons, a slider (from 0 – 350), and a lot of different labels. The main background (backCon) is a simple purple (#9999FF) container that acts as the background – everything is built on this. The only things added directly to the backCon are the radio button sets and the slider. 
 
@@ -27,7 +32,9 @@ There are 5 separate containers apart from the backCon, they are:
 ```3.	tempCon2: holds the output labels (converted temperature and scale) for the right side at the bottom of the app
 ```4.	initTempCon: holds the label whose values is adjusted by the slider, also holds the label that reflects the chosen input scale
 ```5.	outputTempCon: holds the label whose value is calculated after the output scale is selected, also holds the label that reflects the chosen output scale
+
 <br>
+
 <h3> IN-APP DESIGN: </h3>
 The temperature desired is selected using a basic slider whose values range from 0 to 350. The input temperature, changed via the slider, is displayed at the top of the middle column. The output temperature, based on calculations, is displayed at the bottom of the middle column. <br>
 The desired input scale is selected using a panel of 6-different radio buttons, each titled with the scale they represent. The input scales are located on the left side of the temperature reader. After selecting an input scale, the display about the INPUT temperature will change to reflect the chosen scale. After an input-scale is selected, calculations are made every time the slider is moved, providing a continuous and immediate conversion – these calculations are reflected by the 6-scales at the bottom of the app. <br>
